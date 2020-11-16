@@ -1,0 +1,218 @@
+/*设置全局样式*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:"微软雅黑";
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+
+/*中间轮播图css样式*/
+#section{
+    margin-top: 10px;
+    width: 98%;
+    position: relative;
+    margin-bottom: 30px;
+}
+/*导航栏css样式*/
+#nav{
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    left: 50px;
+    top: 70px;
+}
+#clear{
+    clear: both;
+}
+#nav ul{
+    list-style-type: none;
+    width: 40%;
+    box-sizing: border-box;
+    float: right;
+}
+#nav ul li{
+    float: left;
+    width:20%;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius:60px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5%;
+    transition: background-color 0.2s;
+}
+/*li.actv{
+    background-color: #ffffff;
+}*/
+#nav ul li.actv{
+    background-color: #fff;
+}
+#nav ul li a.actv{
+    color: red;
+}
+/*定义导航滑过效果*/
+#nav ul li.hover:hover{
+    background-color: #fff;
+}
+#nav ul li.hover:hover a{
+    color: red;
+}
+/*定义导航栏a的样式*/
+#nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+#nav>p a{
+    font-size: 30px;
+    float: left;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    padding-left: 50px;
+    text-decoration: none;
+}
+/*设置推荐游记css样式*/
+#section-btm>div span{
+    font-size: 20px;
+    color:#f13a3a;
+    font-family: "微软雅黑";
+    padding: 10px 8px;
+    border-bottom: 2px solid #f13a3a;
+}
+/*去掉珊格布局的内边距*/
+#section-btm-under>div{
+    padding: 0;
+}
+/*设置图片样式*/
+#section-btm-under{
+    margin-top: 40px;
+}
+#section-btm-under-left dl{
+    float: left;
+    margin-right:3.5%;
+    margin-left: 3.5%;
+    width: 43%;
+}
+#section-btm-under-left dl dd{
+    text-align: center;
+    padding-top: 20px;
+}
+#section-btm-under-left dl dt{
+    overflow: hidden;
+}
+#section-btm-under-left dl dt img{
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+#section-btm-under-left dl dt img:hover{
+    transform:scale(1.3);
+}
+
+/*中间大图css样式*/
+#modo{
+    position: relative;
+    overflow: hidden;
+}
+#modo>div.mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 300px;
+    left: 0;
+    transition: top 0.5s;
+}
+#modo>div.mask:hover{
+    top:0 ;
+    cursor: pointer;
+}
+#modo>div.mask p{
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+
+/*定义图片右边部分*/
+#section-btm-under-right ul{
+    margin-left: 8%;
+}
+#section-btm-under-right ul li a{
+    color: #666666;
+    text-decoration: none;
+}
+#section-btm-under-right ul li a:hover{
+    color: red;
+}
+#section-btm-under-right ul li{
+    width: 90%;
+    padding: 10px 0 15px 0;
+    border-bottom: 1px dotted #666;
+}
+/*定义最底部css样式*/
+#bottom{
+    width: 100%;
+    height: 580px;
+    background-image:url("index.image/index8.jpg");
+    position: relative;
+}
+#bottom-mask{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    color: #fff;
+
+}
+#bottom-left{
+    padding: 100px 0 0 50px;
+}
+#bottom-left p{
+    margin-top: 30px;
+    width: 80%;
+    font-size: 14px;
+}
+#bottom-form{
+    margin-top: 30px;
+}
+#bottom-right{
+    padding: 100px 0 0 50px;
+    font-size: 14px;
+}
+#textarea textarea{
+    height: 100px;
+}
+#bottom-form-btn{
+    text-align: center;
+}
+#bottom-form-btn button{
+    padding: 10px 10px;
+    width: 100%;
+    margin-left: 27.6%;
+}
+
+/*定义最底部信息样式*/
+
+#footer{
+    height: 200px;
+    background-color: #191919;
+}
+#footer>div p{
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
